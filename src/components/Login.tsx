@@ -20,7 +20,7 @@ const Login = ({ onLoginSuccess }: LoginProps) => {
 
     try {
       const response = await axios.post(
-        'http://localhost:8000/api/login',
+        `${import.meta.env.VITE_API_URL}/login`,
         {
           email,
           password,

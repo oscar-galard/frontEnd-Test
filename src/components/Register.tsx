@@ -21,7 +21,7 @@ const Register = ({ onRegisterSuccess }: RegisterProps) => {
 
     try {
       const response = await axios.post(
-        'http://localhost:8000/api/register',
+        `${import.meta.env.VITE_API_URL}/register`,
         {
           email,
           password,
