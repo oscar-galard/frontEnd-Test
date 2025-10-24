@@ -1,0 +1,7 @@
+import { createRoot } from 'react-dom/client'
+import './App.css'
+import App from '../../../../.emacs.d/backups/!home!oscar!projects!test-1!client!src!App.tsx~'
+
+createRoot(document.getElementById('root')!).render(
+    <App />
+)

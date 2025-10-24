@@ -1,0 +1,13 @@
+
+import Register from '../../../../../.emacs.d/backups/!home!oscar!projects!test-1!client!src!components!Register.tsx~';
+
+const RegisterPage = () => {
+  return (
+    <div>
+      <h1>Register Page</h1>
+      <Register />
+    </div>
+  );
+};
+
+export default RegisterPage;
